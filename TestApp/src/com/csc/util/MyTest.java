@@ -10,7 +10,7 @@ public class MyTest {
 		else{
 			str = "My Java Test Program";
 		}
-		System.out.println("[Inside MyTest.java]"+str);
+		System.out.println("[Inside MyTest.java] -->"+str);
 		return str;
 	}
 
