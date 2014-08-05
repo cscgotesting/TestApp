@@ -99,7 +99,7 @@
   		    		<include name="*.war"/>
   				</fileset>
   			</delete>
-  	    	<war destfile="TestApp_${build-info.current-date}_${build-info.current-time}.war" webxml="${web.dir}/WebContent/WEB-INF/web.xml">
+  	    	<war destfile="TestApp.war" webxml="${web.dir}/WebContent/WEB-INF/web.xml">
   	    		<fileset dir="${web.dir}/WebContent">
   	    		      <include name="**/*.*"/>
   	    		 </fileset>
