@@ -1,0 +1,5 @@
+[http]
+proxy = 20.201.204.111:80
+[https]
+proxy = 20.201.204.111:80
+sslVerify = false
