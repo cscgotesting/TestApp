@@ -24,6 +24,6 @@ public class SampleTest {
 		
 		test.setMessage("hello");
 		
-		Assert.assertEquals("Hello", test.getMessage());
+		Assert.assertEquals("hell", test.getMessage());
 	}
 }
