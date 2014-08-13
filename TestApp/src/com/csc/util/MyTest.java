@@ -15,6 +15,6 @@ public class MyTest {
 	}
 
 	public void setMessage(String s){
-		str = s
+		str = s;
 	}
 }
