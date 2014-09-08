@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="CSCINDAH263946" name="test.junit.SampleTest" skipped="0" tests="1" time="0.0" timestamp="2014-09-08T08:20:00">
+<testsuite errors="1" failures="0" hostname="CSCINDAH263946" name="test.junit.SampleTest" skipped="0" tests="1" time="0.0" timestamp="2014-09-08T09:33:13">
   <properties>
     <property name="file.encoding.pkg" value="sun.io" />
     <property name="env.PROMPT" value="$P$G" />
     <property name="env.GO_SERVER_JAVA_HOME" value="C:\Program Files (x86)\Go Server\jre" />
     <property name="java.home" value="C:\Program Files (x86)\Go Agent\jre" />
-    <property name="env.GO_PIPELINE_COUNTER" value="12" />
+    <property name="env.GO_PIPELINE_COUNTER" value="13" />
     <property name="env.PROCESSOR_ARCHITEW6432" value="AMD64" />
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Go Agent\jre\lib\endorsed" />
     <property name="env.GC_LOG_LOCATION" value="&quot;C:\Program Files (x86)\Go Agent\go-agent-gc.log&quot;" />
@@ -40,7 +40,7 @@
     <property name="env.GO_STAGE_NAME" value="Stage2" />
     <property name="ant.project.default-target" value="build" />
     <property name="env.WRAPPER_BIN_DIR" value="C:\Program Files (x86)\Go Agent" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.junit.SampleTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bvenugopala2\git\TestApp\TestApp\junit\TEST-test.junit.SampleTest.xml crashfile=C:\Users\bvenugopala2\git\TestApp\TestApp\junitvmwatcher4189693902235799586.properties propsfile=C:\Users\bvenugopala2\git\TestApp\TestApp\junit868786884472621347.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.junit.SampleTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\bvenugopala2\git\TestApp\TestApp\junit\TEST-test.junit.SampleTest.xml crashfile=C:\Users\bvenugopala2\git\TestApp\TestApp\junitvmwatcher1317310239834037222.properties propsfile=C:\Users\bvenugopala2\git\TestApp\TestApp\junit7713733377866578903.properties" />
     <property name="env.NUMBER_OF_PROCESSORS" value="4" />
     <property name="env.APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming" />
     <property name="ant.file" value="C:\Users\bvenugopala2\git\TestApp\TestApp\Junit_Build.xml" />
@@ -65,8 +65,8 @@
     <property name="env.PUBLIC" value="C:\Users\Public" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
     <property name="env.USERDOMAIN" value="ASIAPAC" />
-    <property name="env.GO_FROM_REVISION" value="0b5eeacf3455d6b52f041543ecaa442d79984204" />
-    <property name="env.GO_PIPELINE_LABEL" value="12" />
+    <property name="env.GO_FROM_REVISION" value="8f175c992f6c2055b4ec9ac9fa6dab361668e099" />
+    <property name="env.GO_PIPELINE_LABEL" value="13" />
     <property name="env.PROCESSOR_LEVEL" value="6" />
     <property name="env.windir" value="C:\Windows" />
     <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
