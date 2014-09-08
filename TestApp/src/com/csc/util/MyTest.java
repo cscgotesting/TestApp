@@ -8,7 +8,7 @@ public class MyTest {
 			return str;
 		}
 		else{
-			str = "My Java Test Program";
+			str = "Hello how you doing My Java Test Program";
 		}
 		System.out.println("[Inside MyTest.java]"+str);
 		return str;

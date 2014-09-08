@@ -20,10 +20,10 @@ public class SampleTest {
 	public void testSample(){
 		test = new MyTest();
 		
-		Assert.assertEquals("My Java Test Program", test.getMessage());
+		Assert.assertEquals("Hello", test.getMessage());
 		
-		test.setMessage("hello");
+		test.setMessage("Hello");
 		
-		Assert.assertEquals("hello", test.getMessage());
+		Assert.assertEquals("Hello", test.getMessage());
 	}
 }

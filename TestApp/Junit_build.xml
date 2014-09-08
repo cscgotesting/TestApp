@@ -5,7 +5,7 @@
               directory with the processing instruction <?eclipse.ant.import?>
               as the first entry and export the buildfile again. --><project basedir="." default="build" name="TestApp">
     <property environment="env"/>
-    <property name="ECLIPSE_HOME" value="C:/eclipse"/>
+    <property name="ECLIPSE_HOME" value="d:/eclipse"/>
     <property name="junit.output.dir" value="junit"/>
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="target" value="1.7"/>
@@ -40,7 +40,7 @@
     <target name="build-subprojects"/>
     <target depends="init" name="build-project">
         <echo message="${ant.project.name}: ${ant.file}"/>
-        <javac debug="true" debuglevel="${debuglevel}" destdir="build/classes" includeantruntime="false" source="${source}" target="${target}">
+        <javac debug="true" debuglevel="${debuglevel}" destdir="build/classes" includeantruntime="false" source="${source}" compiler='modern' fork="true" target="${target}">
             <src path="src"/>
             <src path="test"/>
             <classpath refid="TestApp.classpath"/>
@@ -49,6 +49,7 @@
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
     <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
         <copy todir="${ant.library.dir}">
+        	<echo message="${ant.library.dir}"/>
             <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
         </copy>
         <unzip dest="${ant.library.dir}">
@@ -62,7 +63,8 @@
     </target>
     <target name="SampleTest">
         <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
+    	<echo message="${junit.output.dir}"/>
+        <junit  fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
             <test name="test.junit.SampleTest" todir="${junit.output.dir}"/>
             <classpath refid="TestApp.classpath"/>
@@ -71,7 +73,8 @@
     <target name="junitreport">
         <junitreport todir="${junit.output.dir}">
             <fileset dir="${junit.output.dir}">
-                <include name="TEST-*.xml"/>
+            	echo("${junit.output.dir}")>
+               <include name="TEST-*.xml"/>            	
             </fileset>
             <report format="frames" todir="${junit.output.dir}"/>
         	<test>
