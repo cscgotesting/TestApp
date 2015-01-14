@@ -69,8 +69,6 @@
      <manifest>
       <attribute name="Main-Class" value="com.csc.util.MyTest"/>
      </manifest>
-	 <Test>
-	</Test>	
 	</jar>
 	</target>
     <target depends="clean" name="cleanall"/>
