@@ -6,7 +6,7 @@
               as the first entry and export the buildfile again. --><project basedir="." default="build" name="TestApp">
     <property environment="env"/>
     <property name="ECLIPSE_HOME" value="c:/eclipse/"/>
-    <property name="CATALENA_HOME" value="C:/apache-tomcat-8.0.11"/> 
+    <property name="CATALENA_HOME" value="C:/apache-tomcat-8.0.15"/> 
     <property name="web.dir" value="."/>
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="target" value="1.7"/>
